@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<div class="question"></div> 
+
+<div class="character-container">
+    <img src="character.png" class="character" id="character" alt="Person">
+</div>
+
+<div class="options">
+    <div class="option" onclick="chooseOption(0)"></div> 
+    <div class="option" onclick="chooseOption(1)"></div>
+</div>
+
+<div class="next-level">
+    <img src="door.png" class="door" id="door" alt="Дверь" onclick="approachDoor()">
+</div>
+<a href="index.html" class="home">&#8962;</a>
+
+<script src="first_script.js"></script>
+</body>
+</html>
