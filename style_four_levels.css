@@ -1,0 +1,67 @@
+.link_for_questions {
+	background-color:  #e0b79b;
+	color: black;
+	margin-top: 100px;
+	/*display: flex;
+	flex-direction: row; /* Устанавливаем направление по горизонтали */
+	justify-content: space-between; /* Распределение элементов с промежутками */
+	text-decoration: none;
+	border-radius: 30px;
+	padding: 10px;
+}
+.beginner_text, .congrat_text{
+	width:40%;
+	position: fixed;
+	top: 10%;
+	left: 450px;
+	background-color: #aaa591;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+.start_questions_link{
+	background-color: #e1b89c;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+.agree{
+	position: fixed;
+	left: 500px;
+	top: 20%;
+	width: 300px;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #aaa591;
+
+}
+.success_ans{
+	position: fixed;
+	bottom: 10%;
+	background-color: #aaa591;
+	padding: 10px;
+	border-radius: 20px;
+}
+.success_yes{
+	position: fixed;
+	bottom: 5%;
+	background-color: #aaa591;
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+}
+.success_no{
+	position: fixed;
+	bottom: 5%;
+	left: 5%;
+	background-color: #aaa591;
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+	border: #aaa591;
+	cursor: pointer;
+}
